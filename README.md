@@ -7,11 +7,17 @@
 
 </p>
 
-> A Copier template to scaffold a basic Golang project.
+> A [Copier](https://copier.readthedocs.io/en/stable/) Template to scaffold a basic Golang project.
 
 ## 📦 What is included?
 
-TBD
+- [GolangCI-Lint](https://golangci-lint.run/) configuration for linting and static analysis.
+- [Devenv](https://devenv.dev/) configuration for a reproducible development environment using Nix.
+- [Direnv](https://direnv.net/) integration for automatic environment loading.
+- [Taskfile](https://taskfile.dev/) as a task runner to simplify common development tasks.
+- GitHub Actions CI workflow for building, testing, linting, and releasing the project.
+- Git commit hooks using [Lefthook](https://lefthook.io/) to enforce code quality before commits.
+- [Release Drafter](https://release-drafter.github.io/) for automatic release management and release notes generation.
 
 ## 🚀 Getting Started
 
